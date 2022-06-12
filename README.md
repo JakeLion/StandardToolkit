@@ -8,7 +8,7 @@ The Standard Toolkit automates processes that are not usually automated, aswell 
 
 This is the basic documentation of each function from the Standard Toolkit
 
-How to include:
+To include this library in your project, simply do:
 ```
 #include "standard-toolkit/stdtoolkit.h"
 ```
