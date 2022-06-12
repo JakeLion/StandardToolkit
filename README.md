@@ -52,6 +52,9 @@ Outputs the celsius value of the integer passed (assumes integer passed is a fah
 #### repeat(char[], int)
 Automates looping, the char is printed based on the size of the int
 
+#### erepeat(char[])
+Similar to repeat, will repeat until process is broken
+
 Ex:
 ```
 repeat("Hello, World! ", 5);
