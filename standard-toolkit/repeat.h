@@ -9,3 +9,11 @@ void repeat(char string[], int rate)
         printf("%s", string);
     }
 }
+
+void erepeat(char string[])
+{
+    while (1)
+    {
+        printf("%s", string);
+    }
+}
