@@ -49,10 +49,10 @@ Outputs the celsius value of the integer passed (assumes integer passed is a fah
 
 ### Repeat (repeat.h)
 
-#### repeat(char[], int)
+#### circuit(char[], int)
 Automates looping, the char is printed based on the size of the int
 
-#### erepeat(char[])
+#### loop(char[])
 Similar to repeat, will repeat until process is broken
 
 Ex:
