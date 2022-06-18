@@ -2,7 +2,7 @@
 
 //This is part of the Standard Toolkit by Jacob Cornelison
 
-void repeat(char string[], int rate)
+void circuit(char string[], int rate)
 {
     for (int i; i <= rate; i++)
     {
@@ -10,7 +10,7 @@ void repeat(char string[], int rate)
     }
 }
 
-void erepeat(char string[])
+void loop(char string[])
 {
     while (1)
     {
