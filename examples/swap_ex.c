@@ -14,7 +14,7 @@ int float_swapper()
 }
 
 //example of the swapI feature
-int int_swaper()
+int int_swapper()
 {
     int b = 5;
     int s = 2;
