@@ -79,7 +79,7 @@ Swaps integer values
 Swaps float values
 
 Ex:
-```
+```c
 //swapI example
 int big = 5;
 int small = 2;
@@ -89,7 +89,7 @@ swapI(&big, &small);
 printf("Big: %d, Small: %d\n\n", big, small);
 ```
 
-```
+```c
 //swapF example
 float big = 3.25;
 float small = 2.25;
