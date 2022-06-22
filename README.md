@@ -68,3 +68,33 @@ Hello, World! Hello, World! Hello, World! Hello, World! Hello, World!
 
 #### randstr(int)
 Generates a random string, string length is based on size of the integer
+
+### Swap Value (swap.h)
+Currently only supports floats and integers
+
+#### swapI(int &a, int &b)
+Swaps integer values
+
+#### swapF(float &a, float &b)
+Swaps float values
+
+Ex:
+```
+//swapI example
+int big = 5;
+int small = 2;
+
+swapI(&big, &small);
+
+printf("Big: %d, Small: %d\n\n", big, small);
+```
+
+```
+//swapF example
+float big = 3.25;
+float small = 2.25;
+
+swapF(&big, &small);
+
+printf("Big: %3.2f, Small: %3.2f", big, small);
+```
