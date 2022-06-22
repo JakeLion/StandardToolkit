@@ -6,7 +6,7 @@ int main()
 {
     printf("--------\n");
 
-    randstr(25); //WARNING: randstr is print-bound
+    randstr(25); //Will produce a random string of 25 characters, WARNING: randstr is print-bound
 
     printf("--------\n");
     return 0;
