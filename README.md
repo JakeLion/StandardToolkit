@@ -81,20 +81,28 @@ Swaps float values
 Ex:
 ```c
 //swapI example
-int big = 5;
-int small = 2;
+int main()
+{
+  int big = 5;
+  int small = 2;
 
-swapI(&big, &small);
+  swapI(&big, &small);
 
-printf("Big: %d, Small: %d\n\n", big, small);
+  printf("Big: %d, Small: %d\n\n", big, small);
+  return 0;
+}
 ```
 
 ```c
 //swapF example
-float big = 3.25;
-float small = 2.25;
+int main()
+{
+  float big = 3.25;
+  float small = 2.25;
 
-swapF(&big, &small);
+  swapF(&big, &small);
 
-printf("Big: %3.2f, Small: %3.2f", big, small);
+  printf("Big: %3.2f, Small: %3.2f", big, small);
+  return 0;
+}
 ```
