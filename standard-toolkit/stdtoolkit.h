@@ -3,6 +3,7 @@
 #include "tempconv.h"
 #include "randstring.h"
 #include "arithmatic.h"
+#include "geometry.h"
 #include "swap.h"
 
 /*
