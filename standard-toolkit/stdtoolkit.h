@@ -3,6 +3,7 @@
 #include "tempconv.h"
 #include "randstring.h"
 #include "arithmatic.h"
+#include "swap.h"
 
 /*
 This is The Standard Toolkit, this libary is intended to be an extension to the standard library.
