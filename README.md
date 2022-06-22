@@ -9,7 +9,7 @@ The Standard Toolkit automates processes that are not usually automated, aswell 
 This is the basic documentation of each function from the Standard Toolkit
 
 To include this library in your project, simply do:
-```
+```c
 #include "standard-toolkit/stdtoolkit.h"
 ```
 Ensure the library is in the project folder, if you put the library with standard headers, user <> instead of ""
@@ -56,7 +56,7 @@ Automates looping, the char is printed based on the size of the int
 Similar to repeat, will repeat until process is broken
 
 Ex:
-```
+```c
 repeat("Hello, World! ", 5);
 ```
 Output:
